@@ -5,9 +5,30 @@ export default function Gpu({ gpus, findCardById }) {
 	const gpu = findCardById(gpus, id);
 	const API_BASE = import.meta.env.VITE_API_BASE;
 
+	function getClass(fullModelName) {
+    if (fullModelName.includes("nvidia") || fullModelName.includes("geforce")) {
+      return "nvidia-model-header";
+    } else if (
+      fullModelName.includes("amd") ||
+      fullModelName.includes("radeon")
+    ) {
+      return "amd-model-header";
+    } else if (
+      fullModelName.includes("intel") ||
+      fullModelName.includes("arc")
+    ) {
+      return "intel-model-header";
+    }
+    return "model-header";
+  }
+
+  const gpuHeaderClass = getClass(
+    `${gpu.manufacturer} ${gpu.gpuline} ${gpu.model}`.toLowerCase(),
+  );
+
   return (
-    <div>
-      <h1>{gpu.model}</h1>
+    <div className={gpuHeaderClass}>
+      <h1 className="gpu-model-title">{gpu.model}</h1>
         <div className="image-container">
 					<img className="front" src={`${API_BASE}${gpu.images.front}`} alt="Graphics Card front" />
 					<img className="core" src={`${API_BASE}${gpu.images.core}`} alt="GPU Core" />
@@ -210,8 +231,8 @@ export default function Gpu({ gpus, findCardById }) {
 						</tr>
 					</tbody>
         </table>
-        <Link to={'/'} className="button">
-					Return
+        <Link to={'/'} className="return-button">
+					Return ↩
 				</Link>
     </div>
   );

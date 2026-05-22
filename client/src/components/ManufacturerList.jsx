@@ -9,7 +9,7 @@ export default function ManufacturerList({ manufacturers }) {
 
   return (
     <>
-      <h1>GPUs</h1>
+      <h1 className="main-page-title">Graphics Cards Catalog</h1>
       <div className="gpu-tables">
         {manufacturers.map(manufacturer => (
           <div

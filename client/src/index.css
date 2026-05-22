@@ -4,8 +4,69 @@ body {
   font-family: serif, sans-serif;
 }
 
+.main-page-title,
+.gpu-model-title {
+  margin: 1rem auto;
+  border: 1px solid #505050;
+  border-radius: 1rem;
+  border-style: groove;
+  background-color: black;
+  padding: 1rem;
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.main-page-title {
+  min-width: 500px;
+  max-width: 750px;
+}
+
+.gpu-model-title {
+  min-width: 400px;
+  max-width: 700px;
+}
+
+/* Main page catalog tables */
+.gpu-tables {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  min-width: 450px;
+}
+
+.gpu-tables div {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  min-width: 30%; /* Ensure each table has a minimum width */
+  max-width: 30%; /* Ensure each table has a maximum width */
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+a {
+  font-weight: 500;
+  color: white;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #7178f8;
+}
+
+/* GPU information page */
 table {
-  border: 1px solid black;
+  border: 1px solid #757575;
   border-style: outset;
   margin: 10px;
   padding: 5px;
@@ -14,7 +75,7 @@ table {
 }
 
 th, td {
-  border: 1px solid black;
+  border: 1px solid #757575;
   border-style: groove;
   padding: 15px;
   text-align: center;
@@ -43,12 +104,6 @@ th, td {
   width: 275px;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-  text-align: center;
-}
-
 h2 {
   font-weight: bold;
 }
@@ -57,49 +112,32 @@ h2, h3 {
   margin: 10px 0;
 }
 
-.gpu-tables {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
+.return-button {
+  border: 2px solid #1976d2;
+  border-radius: 0.5rem;
+  background-color: #1976d2;
+  padding: 0.25rem;
+  font-weight: bold;
 }
 
-.gpu-tables div {
-  flex: 1;
-  margin: 20px;
-  padding: 20px;
-  background-color: #1e1e1e;
-  border-radius: 10px;
-  min-width: 30%; /* Ensure each table has a minimum width */
-  max-width: 30%; /* Ensure each table has a maximum width */
-  box-sizing: border-box;
-}
-
-.gpu-tables .nvidia {
+/* Manufacturers color styles */
+.gpu-tables .nvidia,
+.nvidia-model-header table tbody td,
+.nvidia-model-header h1 {
   color: #76b900;
+  font-weight: bold;
 }
 
-.gpu-tables .amd {
+.gpu-tables .amd,
+.amd-model-header table tbody td,
+.amd-model-header h1 {
   color: red;
+  font-weight: bold;
 }
 
-.gpu-tables .intel {
+.gpu-tables .intel,
+.intel-model-header table tbody td,
+.intel-model-header h1 {
   color: #0068b5;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin: 5px 0;
-}
-
-a {
-  font-weight: 500;
-  color: white;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #7178f8;
+  font-weight: bold;
 }
