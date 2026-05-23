@@ -3,6 +3,7 @@
 ## Table of Contents
 - [About](#about)
 - [Usage](#usage)
+- [Docker](#docker)
 
 
 ## About
@@ -44,3 +45,15 @@ Build using **Node.js + Express** (Backend) and **React + Axios** (Frontend).
 - Access the Web Ui on http://localhost:3001
 
 - HTTP GET requests to http://localhost:3001/api/gpus
+
+
+## Docker
+Build the image
+```bash
+cd ./server && docker build -t gpucatalog .
+```
+
+Run the container
+```bash
+docker run --name gpucatalog -p 3001:3001 gpucatalog
+```
