@@ -68,11 +68,7 @@
                 "height": "N/A",
                 "tdp": "120 W",
                 "suggestedPsu": "300 W",
-                "outputs": [
-                  "1x DVI",
-                  "1x HDMI 2.0",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x DVI", "1x HDMI 2.0", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 6-pin"
               },
               "graphicsFeatures": {
@@ -144,10 +140,7 @@
                 "height": "N/A",
                 "tdp": "250 W",
                 "suggestedPsu": "600 W",
-                "outputs": [
-                  "1x HDMI 2.0",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.0", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 6-pin + 1 x 8-pin"
               },
               "graphicsFeatures": {
@@ -308,10 +301,7 @@
                 "height": "112 mm",
                 "tdp": "70 W",
                 "suggestedPsu": "250 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "None"
               },
               "graphicsFeatures": {
@@ -383,10 +373,7 @@
                 "height": "112 mm",
                 "tdp": "130 W",
                 "suggestedPsu": "300 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 8-pin"
               },
               "graphicsFeatures": {
@@ -458,10 +445,7 @@
                 "height": "112 mm",
                 "tdp": "170 W",
                 "suggestedPsu": "450 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 12-pin"
               },
               "graphicsFeatures": {
@@ -533,10 +517,7 @@
                 "height": "N/A",
                 "tdp": "170 W",
                 "suggestedPsu": "450 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 12-pin"
               },
               "graphicsFeatures": {
@@ -608,10 +589,7 @@
                 "height": "112 mm",
                 "tdp": "200 W",
                 "suggestedPsu": "550 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 12-pin"
               },
               "graphicsFeatures": {
@@ -683,10 +661,7 @@
                 "height": "112 mm",
                 "tdp": "220 W",
                 "suggestedPsu": "550 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 12-pin"
               },
               "graphicsFeatures": {
@@ -758,10 +733,7 @@
                 "height": "112 mm",
                 "tdp": "290 W",
                 "suggestedPsu": "600 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 12-pin"
               },
               "graphicsFeatures": {
@@ -833,10 +805,7 @@
                 "height": "40 mm",
                 "tdp": "320 W",
                 "suggestedPsu": "700 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 12-pin"
               },
               "graphicsFeatures": {
@@ -908,10 +877,7 @@
                 "height": "40 mm",
                 "tdp": "350 W",
                 "suggestedPsu": "750 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 12-pin"
               },
               "graphicsFeatures": {
@@ -983,10 +949,7 @@
                 "height": "40 mm",
                 "tdp": "350 W",
                 "suggestedPsu": "750 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 12-pin"
               },
               "graphicsFeatures": {
@@ -1058,10 +1021,7 @@
                 "height": "61 mm",
                 "tdp": "350 W",
                 "suggestedPsu": "750 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 12-pin"
               },
               "graphicsFeatures": {
@@ -1133,10 +1093,7 @@
                 "height": "61 mm",
                 "tdp": "450 W",
                 "suggestedPsu": "850 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 16-pin"
               },
               "graphicsFeatures": {
@@ -1214,10 +1171,7 @@
                 "height": "40 mm",
                 "tdp": "115 W",
                 "suggestedPsu": "300 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 12-pin"
               },
               "graphicsFeatures": {
@@ -1289,10 +1243,7 @@
                 "height": "40 mm",
                 "tdp": "160 W",
                 "suggestedPsu": "450 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 16-pin"
               },
               "graphicsFeatures": {
@@ -1364,10 +1315,7 @@
                 "height": "40 mm",
                 "tdp": "160 W",
                 "suggestedPsu": "450 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 16-pin"
               },
               "graphicsFeatures": {
@@ -1439,10 +1387,7 @@
                 "height": "40 mm",
                 "tdp": "200 W",
                 "suggestedPsu": "550 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 16-pin"
               },
               "graphicsFeatures": {
@@ -1514,10 +1459,7 @@
                 "height": "42 mm",
                 "tdp": "220 W",
                 "suggestedPsu": "550 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 16-pin"
               },
               "graphicsFeatures": {
@@ -1589,10 +1531,7 @@
                 "height": "42 mm",
                 "tdp": "285 W",
                 "suggestedPsu": "600 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 16-pin"
               },
               "graphicsFeatures": {
@@ -1664,10 +1603,7 @@
                 "height": "61 mm",
                 "tdp": "285 W",
                 "suggestedPsu": "600 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 16-pin"
               },
               "graphicsFeatures": {
@@ -1739,10 +1675,7 @@
                 "height": "61 mm",
                 "tdp": "320 W",
                 "suggestedPsu": "700 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 16-pin"
               },
               "graphicsFeatures": {
@@ -1814,10 +1747,7 @@
                 "height": "61 mm",
                 "tdp": "320 W",
                 "suggestedPsu": "700 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 16-pin"
               },
               "graphicsFeatures": {
@@ -1889,10 +1819,7 @@
                 "height": "61 mm",
                 "tdp": "450 W",
                 "suggestedPsu": "850 W",
-                "outputs": [
-                  "1x HDMI 2.1",
-                  "3x DisplayPort 1.4a"
-                ],
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 1.4a"],
                 "powerConnectors": "1 x 16-pin"
               },
               "graphicsFeatures": {
@@ -1970,10 +1897,7 @@
                 "height": "N/A",
                 "tdp": "130 W",
                 "suggestedPsu": "300 W",
-                "outputs": [
-                  "1x HDMI 2.1b",
-                  "3x DisplayPort 2.1b"
-                ],
+                "outputs": ["1x HDMI 2.1b", "3x DisplayPort 2.1b"],
                 "powerConnectors": "1 x 8-pin"
               },
               "graphicsFeatures": {
@@ -2045,10 +1969,7 @@
                 "height": "40 mm",
                 "tdp": "145 W",
                 "suggestedPsu": "300 W",
-                "outputs": [
-                  "1x HDMI 2.1b",
-                  "3x DisplayPort 2.1b"
-                ],
+                "outputs": ["1x HDMI 2.1b", "3x DisplayPort 2.1b"],
                 "powerConnectors": "1 x 8-pin"
               },
               "graphicsFeatures": {
@@ -2120,10 +2041,7 @@
                 "height": "40 mm",
                 "tdp": "180 W",
                 "suggestedPsu": "450 W",
-                "outputs": [
-                  "1x HDMI 2.1b",
-                  "3x DisplayPort 2.1b"
-                ],
+                "outputs": ["1x HDMI 2.1b", "3x DisplayPort 2.1b"],
                 "powerConnectors": "1 x 8-pin"
               },
               "graphicsFeatures": {
@@ -2195,10 +2113,7 @@
                 "height": "40 mm",
                 "tdp": "180 W",
                 "suggestedPsu": "450 W",
-                "outputs": [
-                  "1x HDMI 2.1b",
-                  "3x DisplayPort 2.1b"
-                ],
+                "outputs": ["1x HDMI 2.1b", "3x DisplayPort 2.1b"],
                 "powerConnectors": "1 x 8-pin"
               },
               "graphicsFeatures": {
@@ -2270,10 +2185,7 @@
                 "height": "40 mm",
                 "tdp": "250 W",
                 "suggestedPsu": "600 W",
-                "outputs": [
-                  "1x HDMI 2.1b",
-                  "3x DisplayPort 2.1b"
-                ],
+                "outputs": ["1x HDMI 2.1b", "3x DisplayPort 2.1b"],
                 "powerConnectors": "1 x 16-pin"
               },
               "graphicsFeatures": {
@@ -2345,10 +2257,7 @@
                 "height": "48 mm",
                 "tdp": "300 W",
                 "suggestedPsu": "700 W",
-                "outputs": [
-                  "1x HDMI 2.1b",
-                  "3x DisplayPort 2.1b"
-                ],
+                "outputs": ["1x HDMI 2.1b", "3x DisplayPort 2.1b"],
                 "powerConnectors": "1 x 16-pin"
               },
               "graphicsFeatures": {
@@ -2420,10 +2329,7 @@
                 "height": "40 mm",
                 "tdp": "360 W",
                 "suggestedPsu": "750 W",
-                "outputs": [
-                  "1x HDMI 2.1b",
-                  "3x DisplayPort 2.1b"
-                ],
+                "outputs": ["1x HDMI 2.1b", "3x DisplayPort 2.1b"],
                 "powerConnectors": "1 x 16-pin"
               },
               "graphicsFeatures": {
@@ -2495,10 +2401,7 @@
                 "height": "40 mm",
                 "tdp": "575 W",
                 "suggestedPsu": "950 W",
-                "outputs": [
-                  "1x HDMI 2.1b",
-                  "3x DisplayPort 2.1b"
-                ],
+                "outputs": ["1x HDMI 2.1b", "3x DisplayPort 2.1b"],
                 "powerConnectors": "1 x 16-pin"
               },
               "graphicsFeatures": {
@@ -2521,16 +2424,12 @@
         {
           "id": "rx-5000",
           "name": "Radeon RX 5000 Series",
-          "cards": [
-
-          ]
+          "cards": []
         },
         {
           "id": "rx-6000",
           "name": "Radeon RX 6000 Series",
-          "cards": [
-
-          ]
+          "cards": []
         },
         {
           "id": "rx-7000",
@@ -2598,10 +2497,7 @@
                 "height": "N/A",
                 "tdp": "55 W",
                 "suggestedPsu": "250 W",
-                "outputs": [
-                  "1x HDMI 2.1a",
-                  "3x DisplayPort 2.1"
-                ],
+                "outputs": ["1x HDMI 2.1a", "3x DisplayPort 2.1"],
                 "powerConnectors": "1x 6-pin"
               },
               "graphicsFeatures": {
@@ -2676,10 +2572,7 @@
                 "height": "50 mm",
                 "tdp": "165 W",
                 "suggestedPsu": "450 W",
-                "outputs": [
-                  "1x HDMI 2.1a",
-                  "3x DisplayPort 2.1"
-                ],
+                "outputs": ["1x HDMI 2.1a", "3x DisplayPort 2.1"],
                 "powerConnectors": "1 x 8-pin"
               },
               "graphicsFeatures": {
@@ -2754,10 +2647,7 @@
                 "height": "N/A",
                 "tdp": "190 W",
                 "suggestedPsu": "450 W",
-                "outputs": [
-                  "1x HDMI 2.1a",
-                  "3x DisplayPort 2.1"
-                ],
+                "outputs": ["1x HDMI 2.1a", "3x DisplayPort 2.1"],
                 "powerConnectors": "1 x 8-pin"
               },
               "graphicsFeatures": {
@@ -2832,10 +2722,7 @@
                 "height": "N/A",
                 "tdp": "170 W",
                 "suggestedPsu": "450 W",
-                "outputs": [
-                  "1x HDMI 2.1a",
-                  "3x DisplayPort 2.1"
-                ],
+                "outputs": ["1x HDMI 2.1a", "3x DisplayPort 2.1"],
                 "powerConnectors": "1 x 8-pin"
               },
               "graphicsFeatures": {
@@ -3068,10 +2955,7 @@
                 "height": "50 mm",
                 "tdp": "263 W",
                 "suggestedPsu": "600 W",
-                "outputs": [
-                  "1x HDMI 2.1a",
-                  "3x DisplayPort 2.1"
-                ],
+                "outputs": ["1x HDMI 2.1a", "3x DisplayPort 2.1"],
                 "powerConnectors": "2 x 8-pin"
               },
               "graphicsFeatures": {
@@ -3390,10 +3274,7 @@
                 "height": "N/A",
                 "tdp": "132 W",
                 "suggestedPsu": "300 W",
-                "outputs": [
-                  "1x HDMI 2.1b",
-                  "2x DisplayPort 2.1a"
-                ],
+                "outputs": ["1x HDMI 2.1b", "2x DisplayPort 2.1a"],
                 "powerConnectors": "1 x 8-pin"
               },
               "graphicsFeatures": {
@@ -3467,10 +3348,7 @@
                 "height": "N/A",
                 "tdp": "150 W",
                 "suggestedPsu": "450 W",
-                "outputs": [
-                  "1x HDMI 2.1b",
-                  "2x DisplayPort 2.1a"
-                ],
+                "outputs": ["1x HDMI 2.1b", "2x DisplayPort 2.1a"],
                 "powerConnectors": "1 x 8-pin"
               },
               "graphicsFeatures": {
@@ -3544,10 +3422,7 @@
                 "height": "N/A",
                 "tdp": "150 W",
                 "suggestedPsu": "450 W",
-                "outputs": [
-                  "1x HDMI 2.1b",
-                  "2x DisplayPort 2.1a"
-                ],
+                "outputs": ["1x HDMI 2.1b", "2x DisplayPort 2.1a"],
                 "powerConnectors": "1 x 8-pin"
               },
               "graphicsFeatures": {
@@ -3621,10 +3496,7 @@
                 "height": "N/A",
                 "tdp": "220 W",
                 "suggestedPsu": "550 W",
-                "outputs": [
-                  "1x HDMI 2.1b",
-                  "3x DisplayPort 2.1a"
-                ],
+                "outputs": ["1x HDMI 2.1b", "3x DisplayPort 2.1a"],
                 "powerConnectors": "2 x 8-pin"
               },
               "graphicsFeatures": {
@@ -3698,10 +3570,7 @@
                 "height": "N/A",
                 "tdp": "220 W",
                 "suggestedPsu": "550 W",
-                "outputs": [
-                  "1x HDMI 2.1b",
-                  "3x DisplayPort 2.1a"
-                ],
+                "outputs": ["1x HDMI 2.1b", "3x DisplayPort 2.1a"],
                 "powerConnectors": "2 x 8-pin"
               },
               "graphicsFeatures": {
@@ -3775,10 +3644,7 @@
                 "height": "N/A",
                 "tdp": "304 W",
                 "suggestedPsu": "700 W",
-                "outputs": [
-                  "1x HDMI 2.1b",
-                  "3x DisplayPort 2.1a"
-                ],
+                "outputs": ["1x HDMI 2.1b", "3x DisplayPort 2.1a"],
                 "powerConnectors": "2 x 8-pin"
               },
               "graphicsFeatures": {
@@ -3801,9 +3667,7 @@
         {
           "id": "arc-a-series",
           "name": "Arc A-Series",
-          "cards": [
-
-          ]
+          "cards": []
         },
         {
           "id": "arc-b-series",
@@ -3869,10 +3733,7 @@
                 "height": "45 mm",
                 "tdp": "190 W",
                 "suggestedPsu": "450 W",
-                "outputs": [
-                  "1x HDMI 2.1a",
-                  "3x DisplayPort 2.1"
-                ],
+                "outputs": ["1x HDMI 2.1a", "3x DisplayPort 2.1"],
                 "powerConnectors": "1 x 8-pin"
               },
               "graphicsFeatures": {

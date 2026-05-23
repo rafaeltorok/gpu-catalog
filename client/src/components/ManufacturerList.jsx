@@ -13,24 +13,19 @@ export default function ManufacturerList({ manufacturers }) {
   }, []);
 
   if (!Array.isArray(manufacturers)) {
-    return (
-      <h2>Loading manufacturers</h2>
-    )
+    return <h2>Loading manufacturers</h2>;
   }
 
   return (
     <>
       <h1 className="main-page-title">Graphics Cards Catalog</h1>
       <div className="gpu-tables">
-        {manufacturers.map(manufacturer => (
-          <div
-            key={manufacturer.id}
-            className={manufacturer.id}
-          >
+        {manufacturers.map((manufacturer) => (
+          <div key={manufacturer.id} className={manufacturer.id}>
             <ul>
               <h2>{manufacturer.name}</h2>
             </ul>
-            {manufacturer.series.map(s => (
+            {manufacturer.series.map((s) => (
               <SeriesList key={s.id} series={s} />
             ))}
           </div>

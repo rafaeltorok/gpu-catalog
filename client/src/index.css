@@ -77,7 +77,8 @@ a:hover {
   display: inline-block;
 }
 
-th, td {
+th,
+td {
   border: 1px solid #757575;
   border-style: groove;
   padding: 15px;
@@ -110,7 +111,8 @@ h2 {
   font-weight: bold;
 }
 
-h2, h3 {
+h2,
+h3 {
   margin: 10px 0;
 }
 
@@ -148,7 +150,7 @@ h2, h3 {
 }
 
 /* Mobile devices custom rules */
-@media only screen and (hover: none) and (pointer: coarse){
+@media only screen and (hover: none) and (pointer: coarse) {
   .gpu-tables {
     flex-direction: column;
   }

@@ -1,8 +1,8 @@
-import express from 'express';
-import gpus from '../data/gpudata.json' with { type: 'json' };
+import express from "express";
+import gpus from "../data/gpudata.json" with { type: "json" };
 const router = express.Router();
 
-router.get('/gpus', (req, res) => {
+router.get("/gpus", (req, res) => {
   res.status(200).json(gpus);
 });
 
