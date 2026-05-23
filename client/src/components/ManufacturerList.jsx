@@ -1,6 +1,17 @@
+// React
+import { useEffect } from "react";
+
+// Components
 import SeriesList from "./SeriesList";
 
 export default function ManufacturerList({ manufacturers }) {
+  // Automatically scrolls to the top of the page
+  useEffect(() => {
+    document
+      .querySelector(".main-page-title")
+      .scrollIntoView({ behavior: "smooth" });
+  }, []);
+
   if (!Array.isArray(manufacturers)) {
     return (
       <h2>Loading manufacturers</h2>

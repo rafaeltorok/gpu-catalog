@@ -2,6 +2,7 @@ body {
   background-color: #121212;
   color: #ffffff;
   font-family: serif, sans-serif;
+  max-width: 100%;
 }
 
 .main-page-title,
@@ -18,21 +19,25 @@ body {
 }
 
 .main-page-title {
-  min-width: 500px;
   max-width: 750px;
 }
 
 .gpu-model-title {
-  min-width: 400px;
   max-width: 700px;
 }
 
 /* Main page catalog tables */
+.nvidia-model-header,
+.amd-model-header,
+.intel-model-header {
+  flex: 1;
+  margin: 2rem auto;
+  max-width: 1000px;
+}
+
 .gpu-tables {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
-  min-width: 450px;
 }
 
 .gpu-tables div {
@@ -41,14 +46,12 @@ body {
   padding: 20px;
   background-color: #1e1e1e;
   border-radius: 10px;
-  min-width: 30%; /* Ensure each table has a minimum width */
-  max-width: 30%; /* Ensure each table has a maximum width */
   box-sizing: border-box;
 }
 
 ul {
   list-style-type: none;
-  padding: 0;
+  padding-left: 0;
 }
 
 li {
@@ -65,13 +68,13 @@ a:hover {
 }
 
 /* GPU information page */
-table {
+.gpu-specs-table {
   border: 1px solid #757575;
   border-style: outset;
-  margin: 10px;
   padding: 5px;
   background-color: #1e1e1e;
   border-radius: 10px;
+  display: inline-block;
 }
 
 th, td {
@@ -90,18 +93,17 @@ th, td {
   padding: 20px;
   background-color: #1e1e1e;
   border-radius: 10px;
-  min-width: 900px; /* Ensure each table has a minimum width */
   max-width: 900px; /* Ensure each table has a maximum width */
 }
 
 .front {
   height: auto;
-  width: 500px;
+  max-width: 500px;
 }
 
 .core {
   height: auto;
-  width: 275px;
+  max-width: 275px;
 }
 
 h2 {
@@ -113,11 +115,14 @@ h2, h3 {
 }
 
 .return-button {
+  display: flex;
   border: 2px solid #1976d2;
   border-radius: 0.5rem;
   background-color: #1976d2;
   padding: 0.25rem;
   font-weight: bold;
+  margin-top: 1rem;
+  max-width: 80px;
 }
 
 /* Manufacturers color styles */
@@ -140,4 +145,50 @@ h2, h3 {
 .intel-model-header h1 {
   color: #0068b5;
   font-weight: bold;
+}
+
+/* Mobile devices custom rules */
+@media only screen and (hover: none) and (pointer: coarse){
+  .gpu-tables {
+    flex-direction: column;
+  }
+
+  .gpu-tables div {
+    margin: 1rem auto;
+    width: 95%;
+  }
+
+  .main-page-title,
+  .gpu-model-title {
+    min-width: 200px;
+    font-size: 2rem;
+  }
+
+  .image-container {
+    overflow: auto;
+    min-width: 250px;
+  }
+
+  .front {
+    max-width: 450px;
+  }
+
+  .core {
+    max-width: 250px;
+  }
+
+  .gpu-specs-table {
+    overflow: auto;
+    max-width: 95%;
+  }
+
+  @media only screen and (orientation: landscape) {
+    .gpu-tables {
+      flex-direction: row;
+    }
+
+    .gpu-tables div {
+      margin: 0.25rem;
+    }
+  }
 }
