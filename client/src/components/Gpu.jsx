@@ -44,12 +44,12 @@ export default function Gpu({ gpus, findCardById }) {
       <div className="image-container">
         <img
           className="front"
-          src={`http://${window.location.hostname}:3001${gpu.images.front}`}
+          src={gpu.images.front}
           alt="Graphics Card front"
         />
         <img
           className="core"
-          src={`http://${window.location.hostname}:3001${gpu.images.core}`}
+          src={gpu.images.core}
           alt="GPU Core"
         />
       </div>
