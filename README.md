@@ -12,11 +12,18 @@ A web app to display detailed information for all of your favorite graphics card
 
 Build using **Node.js + Express** (Backend) and **React + Axios** (Frontend).
 
+- [Live demo⇗](https://gpu-catalog.onrender.com) on Render.
+
+- Available on the Docker Hub
+  ```bash
+  docker pull rafaeltorok/gpucatalog:latest
+  ```
+
+- See the [Docker](#docker) section for instructions on how to run the container.
+
 ### Screenshots
 
-<img src="./img/main-page.png" alt="Graphics Cards Catalog app main page" width="600"/>
-
-<img src="./img/gpu-info-page.png" alt="GPU information page" width="550"/>
+<img src="./img/main-page.png" alt="Graphics Cards Catalog app main page" width="650" style="margin-right: 50px;" /><img src="./img/gpu-info-page.png" alt="GPU information page" width="525"/>
 
 
 ## Usage
