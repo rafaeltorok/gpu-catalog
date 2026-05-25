@@ -230,9 +230,162 @@
                 "directX": "12 Ultimate (12_2)",
                 "openGl": "4.6",
                 "openCl": "3.0",
-                "vulkan": "1.3",
+                "vulkan": "1.4",
                 "cuda": "7.5",
-                "shaderModel": "6.7"
+                "shaderModel": "6.9"
+              }
+            },
+            {
+              "id": "rtx-2060-super",
+              "model": "NVIDIA GeForce RTX 2060 SUPER",
+              "images": {
+                "front": "/images/nvidia/20series/front/rtx2060super.jpg",
+                "core": "/images/nvidia/20series/core/rtx2060super.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "TU106",
+                "gpuVariant": "TU106-410-A1",
+                "architecture": "Turing",
+                "foundry": "TSMC",
+                "processSize": "12 nm",
+                "transistors": "10,800 million",
+                "density": "24.3M / mm²",
+                "dieSize": "445 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "July 9th, 2019",
+                "availability": "July 9th, 2019",
+                "generation": "GeForce 20",
+                "launchPrice": "399 USD",
+                "busInterface": "PCIe 3.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1470 MHz",
+                "boostClock": "1650 MHz",
+                "memoryClock": "1750 MHz",
+                "memoryClockEffective": "14 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "2176",
+                "tmus": "136",
+                "rops": "64",
+                "smCount": "34",
+                "tensorCores": "272",
+                "rtCores": "34",
+                "l1Cache": "64 KB (per SM)",
+                "l2Cache": "4 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "256 bit",
+                "bandwidth": "448.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "105.6 GPixel/s",
+                "textureRate": "224.4 GTexel/s",
+                "fp16Half": "14.36 TFLOPS (2:1)",
+                "fp32Float": "7.181 TFLOPS",
+                "fp64Double": "224.4 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "229 mm",
+                "width": "113 mm",
+                "height": "35 mm",
+                "tdp": "175 W",
+                "suggestedPsu": "450 W",
+                "outputs": [
+                  "1x DVI",
+                  "1x HDMI 2.0",
+                  "2x DisplayPort 1.4a",
+                  "1x USB Type-C"
+                ],
+                "powerConnectors": "1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "7.5",
+                "shaderModel": "6.9"
+              }
+            },
+            {
+              "id": "rtx-2080-ti",
+              "model": "NVIDIA GeForce RTX 2080 Ti",
+              "images": {
+                "front": "/images/nvidia/20series/front/rtx2080ti.jpg",
+                "core": "/images/nvidia/20series/core/rtx2080ti.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "TU102",
+                "gpuVariant": "TU102-300A-K1-A1",
+                "architecture": "Turing",
+                "foundry": "TSMC",
+                "processSize": "12 nm",
+                "transistors": "18,600 million",
+                "density": "24.7M / mm²",
+                "dieSize": "754 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "September 20th, 2028",
+                "availability": "September 20th, 2018",
+                "generation": "GeForce 20",
+                "launchPrice": "999 USD",
+                "busInterface": "PCIe 3.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1350 MHz",
+                "boostClock": "1545 MHz",
+                "memoryClock": "1750 MHz",
+                "memoryClockEffective": "14 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "4352",
+                "tmus": "272",
+                "rops": "88",
+                "smCount": "68",
+                "tensorCores": "544",
+                "rtCores": "68",
+                "l1Cache": "64 KB (per SM)",
+                "l2Cache": "5.5 MB"
+              },
+              "memory": {
+                "memorySize": "11 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "352 bit",
+                "bandwidth": "616.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "136.0 GPixel/s",
+                "textureRate": "420.2 GTexel/s",
+                "fp16Half": "26.90 TFLOPS (2:1)",
+                "fp32Float": "13.45 TFLOPS",
+                "fp64Double": "420.2 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "267 mm",
+                "width": "116 mm",
+                "height": "35 mm",
+                "tdp": "250 W",
+                "suggestedPsu": "600 W",
+                "outputs": [
+                  "1x HDMI 2.0",
+                  "3x DisplayPort 1.4a",
+                  "1x USB Type-C"
+                ],
+                "powerConnectors": "2 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "7.5",
+                "shaderModel": "6.9"
               }
             }
           ]
@@ -2429,7 +2582,322 @@
         {
           "id": "rx-6000",
           "name": "Radeon RX 6000 Series",
-          "cards": []
+          "cards": [
+            {
+              "id": "rx-6600-xt",
+              "model": "AMD Radeon RX 6600 XT",
+              "images": {
+                "front": "/images/amd/rx6000series/front/rx6600xt.jpg",
+                "core": "/images/amd/rx6000series/core/rx6600xt.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 23",
+                "gpuVariant": "Navi 23 XT",
+                "architecture": "RDNA 2",
+                "foundry": "TSMC",
+                "processSize": "7 nm",
+                "transistors": "11,060 million",
+                "density": "46.7M / mm²",
+                "dieSize": "237 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "July 30th, 2021",
+                "availability": "August 10th, 2021",
+                "generation": "Navi II",
+                "launchPrice": "379 USD",
+                "busInterface": "PCIe 4.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "1968 MHz",
+                "gameClock": "2359 MHz",
+                "boostClock": "2589 MHz",
+                "memoryClock": "2000 MHz",
+                "memoryClockEffective": "16 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "2048",
+                "tmus": "128",
+                "rops": "64",
+                "computeUnits": "32",
+                "matrixCores": "N/A",
+                "rtCores": "32",
+                "l0Cache": "32 KB (per WPG)",
+                "l1Cache": "128 KB (per Array)",
+                "l2Cache": "2 MB",
+                "l3Cache": "32 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "128 bit",
+                "bandwidth": "256.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "165.7 GPixel/s",
+                "textureRate": "331.4 GTexel/s",
+                "fp16Half": "21.21 TFLOPS (2:1)",
+                "fp32Float": "10.60 TFLOPS",
+                "fp64Double": "662.8 GFLOPS (1:16)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "190 mm",
+                "width": "110 mm",
+                "height": "40 mm",
+                "tdp": "160 W",
+                "suggestedPsu": "450 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.1",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rx-6700-xt",
+              "model": "AMD Radeon RX 6700 XT",
+              "images": {
+                "front": "/images/amd/rx6000series/front/rx6700xt.jpg",
+                "core": "/images/amd/rx6000series/core/rx6700xt.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 22",
+                "gpuVariant": "Navi 22 XT",
+                "architecture": "RDNA 2",
+                "foundry": "TSMC",
+                "processSize": "7 nm",
+                "transistors": "17,200 million",
+                "density": "51.3M / mm²",
+                "dieSize": "335 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "March 3rd, 2021",
+                "availability": "March 18th, 2021",
+                "generation": "Navi II",
+                "launchPrice": "479 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "2321 MHz",
+                "gameClock": "2424 MHz",
+                "boostClock": "2581 MHz",
+                "memoryClock": "2000 MHz",
+                "memoryClockEffective": "16 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "2560",
+                "tmus": "160",
+                "rops": "64",
+                "computeUnits": "40",
+                "matrixCores": "N/A",
+                "rtCores": "40",
+                "l0Cache": "32 KB (per WGP)",
+                "l1Cache": "128 KB (per Array)",
+                "l2Cache": "3 MB",
+                "l3Cache": "96 MB"
+              },
+              "memory": {
+                "memorySize": "12 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "192 bit",
+                "bandwidth": "384.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "165.2 GPixel/s",
+                "textureRate": "413.0 GTexel/s",
+                "fp16Half": "26.43 TFLOPS (2:1)",
+                "fp32Float": "13.21 TFLOPS",
+                "fp64Double": "825.9 GFLOPS (1:16)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "267 mm",
+                "width": "110 mm",
+                "height": "40 mm",
+                "tdp": "230 W",
+                "suggestedPsu": "550 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1x 6-pin + 1x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.1",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rx-6800",
+              "model": "AMD Radeon RX 6800",
+              "images": {
+                "front": "/images/amd/rx6000series/front/rx6800.jpg",
+                "core": "/images/amd/rx6000series/core/rx6800.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 21",
+                "gpuVariant": "Navi 21 XL",
+                "architecture": "RDNA 2",
+                "foundry": "TSMC",
+                "processSize": "7 nm",
+                "transistors": "26,800 million",
+                "density": "51.5M / mm²",
+                "dieSize": "520 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "October 28th, 2020",
+                "availability": "November 18th, 2020",
+                "generation": "Navi II",
+                "launchPrice": "579 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1700 MHz",
+                "gameClock": "1815 MHz",
+                "boostClock": "2105 MHz",
+                "memoryClock": "2000 MHz",
+                "memoryClockEffective": "16 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "3840",
+                "tmus": "240",
+                "rops": "96",
+                "computeUnits": "60",
+                "matrixCores": "N/A",
+                "rtCores": "60",
+                "l0Cache": "32 KB (per WGP)",
+                "l1Cache": "128 KB (per Array)",
+                "l2Cache": "4 MB",
+                "l3Cache": "128 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "256 bit",
+                "bandwidth": "512.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "202.1 GPixel/s",
+                "textureRate": "505.2 GTexel/s",
+                "fp16Half": "32.33 TFLOPS (2:1)",
+                "fp32Float": "16.17 TFLOPS",
+                "fp64Double": "1,010.4 GFLOPS (1:16)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "267 mm",
+                "width": "120 mm",
+                "height": "40 mm",
+                "tdp": "250 W",
+                "suggestedPsu": "600 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "2x DisplayPort 1.4a",
+                  "1x USB Type-C"
+                ],
+                "powerConnectors": "2 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.1",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rx-6900-xt",
+              "model": "AMD Radeon RX 6900 XT",
+              "images": {
+                "front": "/images/amd/rx6000series/front/rx6900xt.jpg",
+                "core": "/images/amd/rx6000series/core/rx6900xt.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 21",
+                "gpuVariant": "Navi 21 XTX",
+                "architecture": "RDNA 2",
+                "foundry": "TSMC",
+                "processSize": "7 nm",
+                "transistors": "26,800 million",
+                "density": "51.5M / mm²",
+                "dieSize": "520 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "October 28th, 2020",
+                "availability": "December 8th, 2020",
+                "generation": "Navi II",
+                "launchPrice": "999 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1825 MHz",
+                "gameClock": "2015 MHz",
+                "boostClock": "2250 MHz",
+                "memoryClock": "2000 MHz",
+                "memoryClockEffective": "16 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "5120",
+                "tmus": "320",
+                "rops": "128",
+                "computeUnits": "80",
+                "matrixCores": "N/A",
+                "rtCores": "80",
+                "l0Cache": "32 KB (per WGP)",
+                "l1Cache": "128 KB (per Array)",
+                "l2Cache": "4 MB",
+                "l3Cache": "128 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "256 bit",
+                "bandwidth": "512.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "288.0 GPixel/s",
+                "textureRate": "720.0 GTexel/s",
+                "fp16Half": "46.08 TFLOPS (2:1)",
+                "fp32Float": "23.04 TFLOPS",
+                "fp64Double": "1.440 TFLOPS (1:16)"
+              },
+              "boardDesign": {
+                "slotWidth": "Triple-slot",
+                "length": "267 mm",
+                "width": "120 mm",
+                "height": "50 mm",
+                "tdp": "300 W",
+                "suggestedPsu": "700 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "2x DisplayPort 1.4a",
+                  "1x USB Type-C"
+                ],
+                "powerConnectors": "2 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.1",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            }
+          ]
         },
         {
           "id": "rx-7000",
@@ -3667,7 +4135,379 @@
         {
           "id": "arc-a-series",
           "name": "Arc A-Series",
-          "cards": []
+          "cards": [
+            {
+              "id": "arc-a310",
+              "model": "Intel Arc A310",
+              "images": {
+                "front": "/images/intel/arcAseries/front/arcA310.jpg",
+                "core": "/images/intel/arcAseries/core/arcA310.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "DG2-128",
+                "gpuVariant": "ACM-G11",
+                "architecture": "Xe-HPG",
+                "foundry": "TSMC",
+                "processSize": "6 nm",
+                "transistors": "7,200 million",
+                "density": "45.9M / mm²",
+                "dieSize": "157 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "October 12th, 2022",
+                "availability": "October 12th, 2022",
+                "generation": "Arc A-Series",
+                "launchPrice": "99 USD",
+                "busInterface": "PCIe 4.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "1750 MHz",
+                "boostClock": "1750 MHz",
+                "memoryClock": "1937 MHz",
+                "memoryClockEffective": "15.5 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "768",
+                "tmus": "32",
+                "rops": "16",
+                "executionUnits": "96",
+                "xmxCores": "96",
+                "rtCores": "6",
+                "l1Cache": "N/A",
+                "l2Cache": "4 MB"
+              },
+              "memory": {
+                "memorySize": "4 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "64 bit",
+                "bandwidth": "124.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "28.0 GPixel/s",
+                "textureRate": "56.0 GTexel/s",
+                "fp16Half": "5.376 TFLOPS (2:1)",
+                "fp32Float": "2.688 TFLOPS",
+                "fp64Double": "672.0 GFLOPS (1:4)"
+              },
+              "boardDesign": {
+                "slotWidth": "Single-slot",
+                "length": "N/A",
+                "width": "N/A",
+                "height": "N/A",
+                "tdp": "30 W",
+                "suggestedPsu": "200 W",
+                "outputs": [
+                  "4x mini-DisplayPort 2.0"
+                ],
+                "powerConnectors": "None"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.6"
+              }
+            },
+            {
+              "id": "arc-a380",
+              "model": "Intel Arc A380",
+              "images": {
+                "front": "/images/intel/arcAseries/front/arcA380.jpg",
+                "core": "/images/intel/arcAseries/core/arcA380.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "DG2-128",
+                "gpuVariant": "ACM-G11",
+                "architecture": "Xe-HPG",
+                "foundry": "TSMC",
+                "processSize": "6 nm",
+                "transistors": "7,200 million",
+                "density": "45.9M / mm²",
+                "dieSize": "157 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "June 14th, 2022",
+                "availability": "June 14th, 2022",
+                "generation": "Arc A-Series",
+                "launchPrice": "149 USD",
+                "busInterface": "PCIe 4.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "2000 MHz",
+                "boostClock": "2050 MHz",
+                "memoryClock": "1937 MHz",
+                "memoryClockEffective": "15.5 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "1024",
+                "tmus": "64",
+                "rops": "32",
+                "executionUnits": "128",
+                "xmxCores": "128",
+                "rtCores": "8",
+                "l1Cache": "N/A",
+                "l2Cache": "4 MB"
+              },
+              "memory": {
+                "memorySize": "6 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "96 bit",
+                "bandwidth": "186.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "65.6 GPixel/s",
+                "textureRate": "131.2 GTexel/s",
+                "fp16Half": "8.397 TFLOPS (2:1)",
+                "fp32Float": "4.198 TFLOPS",
+                "fp64Double": "1,049.6 GFLOPS (1:4)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "N/A",
+                "width": "N/A",
+                "height": "N/A",
+                "tdp": "75 W",
+                "suggestedPsu": "250 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 2.0"
+                ],
+                "powerConnectors": "1x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.6"
+              }
+            },
+            {
+              "id": "arc-a580",
+              "model": "Intel Arc A580",
+              "images": {
+                "front": "/images/intel/arcAseries/front/arcA580.jpg",
+                "core": "/images/intel/arcAseries/core/arcA580.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "DG2-512",
+                "gpuVariant": "ACM-G10",
+                "architecture": "Xe-HPG",
+                "foundry": "TSMC",
+                "processSize": "6 nm",
+                "transistors": "21,700 million",
+                "density": "53.4M / mm²",
+                "dieSize": "406 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "October 10th, 2023",
+                "availability": "October 10th, 2023",
+                "generation": "Arc A-Series",
+                "launchPrice": "179 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1700 MHz",
+                "boostClock": "2000 MHz",
+                "memoryClock": "2000 MHz",
+                "memoryClockEffective": "16 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "3072",
+                "tmus": "192",
+                "rops": "96",
+                "executionUnits": "384",
+                "xmxCores": "384",
+                "rtCores": "24",
+                "l1Cache": "N/A",
+                "l2Cache": "8 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "256 bit",
+                "bandwidth": "512.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "192.0 GPixel/s",
+                "textureRate": "384.0 GTexel/s",
+                "fp16Half": "24.58 TFLOPS (2:1)",
+                "fp32Float": "12.29 TFLOPS",
+                "fp64Double": "1.536 TFLOPS (1:8)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "N/A",
+                "width": "N/A",
+                "height": "N/A",
+                "tdp": "175 W",
+                "suggestedPsu": "500 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 2.0"
+                ],
+                "powerConnectors": "2 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.6"
+              }
+            },
+            {
+              "id": "arc-a750",
+              "model": "Intel Arc A750",
+              "images": {
+                "front": "/images/intel/arcAseries/front/arcA750.jpg",
+                "core": "/images/intel/arcAseries/core/arcA750.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "DG2-512",
+                "gpuVariant": "ACM-G10",
+                "architecture": "Xe-HPG",
+                "foundry": "TSMC",
+                "processSize": "6 nm",
+                "transistors": "21,700 million",
+                "density": "53.4M / mm²",
+                "dieSize": "406 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "October 12th, 2022",
+                "availability": "October 12th, 2022",
+                "generation": "Arc A-Series",
+                "launchPrice": "289 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "2050 MHz",
+                "boostClock": "2400 MHz",
+                "memoryClock": "2000 MHz",
+                "memoryClockEffective": "16 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "3584",
+                "tmus": "224",
+                "rops": "112",
+                "executionUnits": "448",
+                "xmxCores": "448",
+                "rtCores": "28",
+                "l1Cache": "N/A",
+                "l2Cache": "16 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "256 bit",
+                "bandwidth": "512.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "268.8 GPixel/s",
+                "textureRate": "537.6 GTexel/s",
+                "fp16Half": "34.41 TFLOPS (2:1)",
+                "fp32Float": "17.20 TFLOPS",
+                "fp64Double": "2.150 TFLOPS (1:8)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "N/A",
+                "width": "N/A",
+                "height": "N/A",
+                "tdp": "225 W",
+                "suggestedPsu": "550 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 2.0"
+                ],
+                "powerConnectors": "1 x 6-pin + 1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.6"
+              }
+            },
+            {
+              "id": "arc-a770",
+              "model": "Intel Arc A770",
+              "images": {
+                "front": "/images/intel/arcAseries/front/arcA770.jpg",
+                "core": "/images/intel/arcAseries/core/arcA770.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "DG2-512",
+                "gpuVariant": "ACM-G10",
+                "architecture": "Xe-HPG",
+                "foundry": "TSMC",
+                "processSize": "6 nm",
+                "transistors": "21,700 million",
+                "density": "53.4M / mm²",
+                "dieSize": "406 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "October 12th, 2022",
+                "availability": "October 12th, 2022",
+                "generation": "Arc A-Series",
+                "launchPrice": "329 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "2100 MHz",
+                "boostClock": "2400 MHz",
+                "memoryClock": "2000 MHz",
+                "memoryClockEffective": "16 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "4096",
+                "tmus": "256",
+                "rops": "128",
+                "executionUnits": "512",
+                "xmxCores": "512",
+                "rtCores": "32",
+                "l1Cache": "N/A",
+                "l2Cache": "16 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "256 bit",
+                "bandwidth": "512.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "307.2 GPixel/s",
+                "textureRate": "614.4 GTexel/s",
+                "fp16Half": "39.32 TFLOPS (2:1)",
+                "fp32Float": "19.66 TFLOPS",
+                "fp64Double": "2.458 TFLOPS (1:8)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "N/A",
+                "width": "N/A",
+                "height": "N/A",
+                "tdp": "225 W",
+                "suggestedPsu": "550 W",
+                "outputs": ["1x HDMI 2.1", "3x DisplayPort 2.0"],
+                "powerConnectors": "1 x 6-pin + 1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.6"
+              }
+            }
+          ]
         },
         {
           "id": "arc-b-series",
