@@ -1,7 +1,12 @@
+@font-face {
+  font-family: 'naked-power-bold';
+  src: url('/fonts/naked-power.bold.otf') format('truetype');
+}
+
 body {
   background-color: #121212;
   color: #ffffff;
-  font-family: serif, sans-serif;
+  font-family: "naked-power-bold", serif, sans-serif;
   max-width: 100%;
 }
 
