@@ -23,7 +23,7 @@ Build using **Node.js + Express** (Backend) and **React + Axios** (Frontend).
 
 ### Screenshots
 
-<img src="./img/main-page.png" alt="Graphics Cards Catalog app main page" width="650" style="margin-right: 50px;" /><img src="./img/gpu-info-page.png" alt="GPU information page" width="525"/>
+<img src="./img/main-page.png" alt="Graphics Cards Catalog app main page" width="650"/><img src="./img/gpu-info-page.png" alt="GPU information page" width="525"/>
 
 
 ## Usage
