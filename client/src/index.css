@@ -73,20 +73,20 @@ a:hover {
 }
 
 /* GPU information page */
-.gpu-specs-table {
+.gpu-specs-table table {
   border: 1px solid #757575;
   border-style: outset;
+  border-collapse: collapse;
   padding: 5px;
   background-color: #1e1e1e;
   border-radius: 10px;
   display: inline-block;
 }
 
-th,
-td {
+.gpu-specs-table th,
+.gpu-specs-table td {
   border: 1px solid #757575;
-  border-style: groove;
-  padding: 15px;
+  padding: 1rem;
   text-align: center;
 }
 
