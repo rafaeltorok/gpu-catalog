@@ -112,7 +112,7 @@
               },
               "renderConfig": {
                 "cores": "3584",
-                "tmus": "24",
+                "tmus": "224",
                 "rops": "188",
                 "smCount": "28",
                 "tensorCores": "N/A",
